@@ -1,0 +1,6 @@
+services:
+  face_recognizer:
+    ports:
+      - "8000:8000"
+  redis:
+    image: "face_recognition:2.2"
